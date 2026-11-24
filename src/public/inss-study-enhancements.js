@@ -319,19 +319,25 @@
       });
       if (!candidate) return;
       const videoId = parseYoutubeId(candidate.href);
-      if (!videoId) return;
       modal.dataset.inssVideoValidation = "1";
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "inss-video-verify-button";
-      button.textContent = "▶ Testar reprodução (10 s)";
-      button.addEventListener("click", function () { startVideoTest(videoId, candidate.href); });
-      links.appendChild(button);
+      if (videoId) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "inss-video-verify-button";
+        button.textContent = "▶ Testar reprodução (10 s)";
+        button.addEventListener("click", function () { startVideoTest(videoId, candidate.href); });
+        links.appendChild(button);
+      }
       const status = document.createElement("div");
       status.className = "inss-video-local-status";
-      status.dataset.videoId = videoId;
-      links.insertAdjacentElement("afterend", status);
-      updateVideoStatus(videoId, status);
+      if (videoId) {
+        status.dataset.videoId = videoId;
+        links.insertAdjacentElement("afterend", status);
+        updateVideoStatus(videoId, status);
+      } else {
+        status.textContent = "Status: PENDENTE — este endereço é uma busca do YouTube, não um vídeo específico. Escolha um vídeo direto e confirme a reprodução antes de validá-lo.";
+        links.insertAdjacentElement("afterend", status);
+      }
     });
   }
   function updateVideoStatus(videoId, node) {
