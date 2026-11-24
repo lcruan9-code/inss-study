@@ -1,0 +1,106 @@
+
+:root { color-scheme: dark; }
+body.dark-mode {
+  --ink:#e7edf5; --muted:#a7b6c7; --line:#34445a; --blue:#69c4df; --green:#59c995;
+  color:var(--ink)!important; background:#0b1220!important; font-size:16px!important;
+}
+body.dark-mode .app-shell, body.dark-mode .main-area, body.dark-mode .content { background:#0b1220!important; color:var(--ink)!important; }
+body.dark-mode .sidebar { background:#111d2c!important; border-color:#2a3b50!important; }
+body.dark-mode .topbar { background:rgba(17,29,44,.96)!important; border-color:#2a3b50!important; }
+body.dark-mode .panel, body.dark-mode .stats-grid article, body.dark-mode .lesson-list,
+body.dark-mode .lesson-row, body.dark-mode .week-summary, body.dark-mode .calendar-day,
+body.dark-mode .syllabus-group, body.dark-mode .question-stats article,
+body.dark-mode .question-aside, body.dark-mode .question-card, body.dark-mode .lesson-modal,
+body.dark-mode .details, body.dark-mode .explanation, body.dark-mode .scoring-note,
+body.dark-mode .source-note, body.dark-mode .search, body.dark-mode .filters select,
+body.dark-mode .question-filters select, body.dark-mode .auth, body.dark-mode .auth-panel,
+body.dark-mode .auth-card { background:#152338!important; color:var(--ink)!important; border-color:#34465d!important; }
+body.dark-mode .course-chip, body.dark-mode .breakdown>div, body.dark-mode .syllabus-group header,
+body.dark-mode .explanation, body.dark-mode .source-note, body.dark-mode .scoring-note,
+body.dark-mode .week-summary, body.dark-mode .details { background:#1a2b42!important; border-color:#34465d!important; }
+body.dark-mode .side-nav>button { color:#c3cfdd!important; font-size:14px!important; }
+body.dark-mode .side-nav>button.active { background:#203c53!important; color:#8cdbf0!important; }
+body.dark-mode .side-nav>small, body.dark-mode .side-brand small,
+body.dark-mode .page-intro>div>small, body.dark-mode .welcome>div>small,
+body.dark-mode .modal-head small, body.dark-mode .details small,
+body.dark-mode .question-kicker, body.dark-mode .question-topic { color:#a9b8c8!important; }
+body.dark-mode .side-brand strong, body.dark-mode .topbar h1, body.dark-mode h1,
+body.dark-mode h2, body.dark-mode h3, body.dark-mode h4,
+body.dark-mode .lesson-row-main>b, body.dark-mode .question-statement { color:#f0f5fa!important; }
+body.dark-mode p, body.dark-mode .details p, body.dark-mode .day-blocks p,
+body.dark-mode .explanation p, body.dark-mode .scoring-note p,
+body.dark-mode .source-note p, body.dark-mode .page-intro p,
+body.dark-mode .welcome p { color:#c1cddb!important; }
+body.dark-mode .lesson-row:hover { background:#1d3048!important; }
+body.dark-mode .lesson-sequence, body.dark-mode .lesson-number,
+body.dark-mode .stat-icon.blue, body.dark-mode .syllabus-item>b {
+  background:#203d54!important; color:#93d8ec!important;
+}
+body.dark-mode .filters select, body.dark-mode .question-filters select,
+body.dark-mode .search, body.dark-mode input, body.dark-mode select {
+  background:#101c2c!important; color:#e7edf5!important; border-color:#3a4d63!important;
+}
+body.dark-mode .outline, body.dark-mode .close {
+  background:#1b2d43!important; color:#e0eaf3!important; border-color:#43566d!important;
+}
+body.dark-mode .secondary { background:#1b394d!important; color:#9bd8e8!important; border-color:#31556a!important; }
+body.dark-mode .bar { background:#2b3b50!important; }
+body.dark-mode .video-empty { background:#1b2d43!important; color:#bdcad8!important; border-color:#43566d!important; }
+body.dark-mode .video-empty strong { color:#edf4fa!important; }
+body.dark-mode .shade { background:rgba(1,7,16,.88)!important; }
+body.dark-mode .warning { background:#3b3020!important; color:#f0d49b!important; border-color:#66502e!important; }
+body.dark-mode .feedback.correct { background:#173b32!important; color:#a8e5c7!important; border-color:#2d6755!important; }
+body.dark-mode .feedback.incorrect { background:#452927!important; color:#ffc2bb!important; border-color:#75423e!important; }
+body.dark-mode .auth-hero { background:#102d3a!important; }
+body.dark-mode .auth-card label { color:#d3dfeb!important; }
+body.dark-mode .auth-card input { background:#101c2c!important; color:#f0f5fa!important; border-color:#40536a!important; }
+body.dark-mode .privacy { color:#9baabc!important; border-color:#34465d!important; }
+body.dark-mode .ai-label, body.dark-mode .question-origin { background:#302b43!important; color:#d1c1f4!important; border-color:#504568!important; }
+
+body { font-size:16px!important; }
+.content { width:100%!important; max-width:1800px!important; padding:34px clamp(22px,3vw,58px) 60px!important; }
+.topbar { padding-left:clamp(22px,3vw,58px)!important; padding-right:clamp(22px,3vw,58px)!important; }
+.side-nav>button { font-size:14px!important; padding:12px 11px!important; }
+.side-nav>small { font-size:10px!important; }
+.meta { font-size:11px!important; }
+.page-intro>div>small, .welcome>div>small { font-size:11px!important; }
+.page-intro h2, .welcome h2 { font-size:clamp(24px,2vw,32px)!important; }
+.page-intro p, .welcome p { font-size:14px!important; }
+.stats-grid small, .stats-grid span, .panel-heading>div>small { font-size:12px!important; }
+.lesson-row-main>b { font-size:15px!important; }
+.lesson-row-main>small, .details p, .details small { font-size:12px!important; }
+.filters select, .question-filters select { font-size:12px!important; }
+.question-statement { font-size:18px!important; }
+.modal-head h2 { font-size:20px!important; }
+.modal-head small, .save-row small, .saved-message { font-size:12px!important; }
+.details { gap:12px!important; }
+.video-tools { display:flex; flex-wrap:wrap; align-items:center; gap:9px; margin:12px 0 16px; }
+.video-tools button { min-height:40px; padding:9px 15px; border-radius:9px; border:1px solid #b7c8d4; background:#edf5f8; color:#174d63; font:700 13px/1.2 "DM Sans",Arial,sans-serif; cursor:pointer; }
+.video-tools button:hover { filter:brightness(.96); transform:translateY(-1px); }
+.video-tools button:focus-visible, .inss-theme-toggle:focus-visible { outline:3px solid #65c9e8; outline-offset:2px; }
+body.dark-mode .video-tools button { background:#203b53; color:#d7f4ff; border-color:#47667e; }
+.lesson-modal.video-expanded { width:min(1500px,98vw)!important; }
+.lesson-modal.video-expanded .modal-grid { grid-template-columns:minmax(0,1fr) 230px!important; }
+.lesson-modal.video-expanded .video-frame { max-height:68vh; }
+.lesson-modal.theater-mode { width:98vw!important; max-height:97vh!important; }
+.lesson-modal.theater-mode .modal-grid { grid-template-columns:minmax(0,1fr)!important; }
+.lesson-modal.theater-mode .video-frame { aspect-ratio:auto; height:min(72vh,calc(98vw * 0.5625)); }
+.lesson-modal.theater-mode .details { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); }
+.video-frame:fullscreen { width:100vw!important; height:100vh!important; max-height:none!important; aspect-ratio:auto!important; border-radius:0!important; background:#000!important; }
+.video-frame:fullscreen iframe, .video-frame:fullscreen>div { width:100%!important; height:100%!important; }
+.inss-theme-toggle { border:1px solid #a9c4d1; border-radius:999px; background:#eaf4f7; color:#194f63; padding:8px 13px; margin-left:12px; font:700 12px "DM Sans",Arial,sans-serif; cursor:pointer; white-space:nowrap; }
+.inss-theme-toggle.is-floating { position:fixed; right:18px; top:16px; z-index:10000; box-shadow:0 6px 22px #0002; }
+body.dark-mode .inss-theme-toggle { background:#223d55; color:#e1f6ff; border-color:#4c6d84; }
+@media (min-width:1500px) {
+  .sidebar { width:280px!important; }
+  .main-area { margin-left:280px!important; }
+  .lesson-modal.video-expanded { width:min(1600px,98vw)!important; }
+}
+@media (max-width:740px) {
+  .content { padding:22px 16px 40px!important; }
+  .lesson-modal.video-expanded, .lesson-modal.theater-mode { width:100vw!important; }
+  .lesson-modal.video-expanded .modal-grid, .lesson-modal.theater-mode .modal-grid { grid-template-columns:1fr!important; }
+  .lesson-modal.theater-mode .video-frame { height:auto; aspect-ratio:16/9; }
+  .lesson-modal.theater-mode .details { grid-template-columns:1fr 1fr; }
+  .inss-theme-toggle { padding:7px 10px; font-size:11px; }
+}
