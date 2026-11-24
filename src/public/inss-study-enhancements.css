@@ -313,3 +313,8 @@ body.dark-mode .inss-video-test-count { color:#91d8ec; }
   .inss-study-actions button { flex:1 1 auto; }
   .inss-video-test-shell { width:100%; border-radius:15px 15px 0 0; }
 }
+
+.inss-study-status.annulled { background:#fff1dc; color:#8a5b17; }
+.inss-question-result.annulled { background:#fff8e9; border:1px solid #ead9b7; color:#765d2f; }
+body.dark-mode .inss-study-status.annulled { background:#45351f; color:#f3d49c; }
+body.dark-mode .inss-question-result.annulled { background:#3a3020; border-color:#6b5532; color:#f1d8a4; }
