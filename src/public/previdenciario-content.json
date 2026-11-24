@@ -255,13 +255,24 @@
       "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
     },
     {
+      "id": "ce-2022-53",
+      "item": 53,
+      "module": "prev-02",
+      "summary": "O item afirma que a territorialidade impede, sem exceções, a aplicação da norma previdenciária brasileira fora do território nacional.",
+      "answer": "E",
+      "explanation": "Errado. A territorialidade é uma referência geral de aplicação, mas a assertiva erra ao transformar essa regra em proibição absoluta. A legislação previdenciária prevê hipóteses de vinculação ao RGPS relacionadas a trabalho no exterior.",
+      "legal": "Lei 8.212/1991, art. 12, I, c, e, f; regras de aplicação da legislação previdenciária.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
       "id": "ce-2022-54",
       "item": 54,
       "module": "prev-02",
+      "annulled": true,
       "summary": "O item trata da aplicação temporal da lei previdenciária e apresenta uma suposta exceção de retroatividade favorável a infratores.",
-      "answer": "E",
-      "explanation": "Errado no gabarito definitivo. A assertiva formula uma exceção que não corresponde à regra de aplicação temporal previdenciária. Para resolver questões desse tipo, identifique o fato, a data em que os requisitos foram preenchidos e a norma vigente, sem importar automaticamente a retroatividade benéfica do Direito Penal.",
-      "legal": "CF, art. 5º, XXXVI; legislação previdenciária aplicável ao fato.",
+      "explanation": "Item anulado no gabarito definitivo do Cebraspe. Não deve ser contabilizado como certo ou errado. Use-o apenas para estudar o tema e conferir a discussão no caderno original.",
+      "legal": "CF, art. 5º, XXXVI; regras de aplicação temporal.",
       "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
       "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
     },
