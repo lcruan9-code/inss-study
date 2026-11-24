@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-24",
+  "status": "Conteúdo inicial pesquisado e conferido em fontes oficiais. A cobertura do edital será ampliada por módulos; este pacote não representa ainda os 23 itens completos.",
+  "sourcePolicy": "Lei seca e gabaritos vêm de fontes oficiais. Explicações são didáticas e identificadas como tais. Questões Cebraspe são apresentadas por paráfrase curta, com referência ao item original e ao gabarito definitivo.",
+  "sources": [
+    {
+      "label": "Constituição Federal — texto compilado (Planalto)",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "kind": "lei vigente"
+    },
+    {
+      "label": "Lei 8.212/1991 — texto compilado (Planalto)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212compilado.htm",
+      "kind": "lei vigente"
+    },
+    {
+      "label": "Lei 8.213/1991 — texto compilado (Planalto)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+      "kind": "lei vigente"
+    },
+    {
+      "label": "IN PRES/INSS 128/2022 — página oficial de alterações",
+      "url": "https://www.gov.br/inss/pt-br/centrais-de-conteudo/legislacao/instrucao-normativa/2022",
+      "kind": "norma administrativa; página atualizada em 12/08/2026"
+    },
+    {
+      "label": "INSS — diferença entre filiação e inscrição",
+      "url": "https://www.gov.br/inss/pt-br/noticias/inss-saiba-qual-a-diferenca-entre-inscricao-e-filiacao-1",
+      "kind": "explicação institucional; atualizada em 28/10/2026"
+    },
+    {
+      "label": "Prova objetiva INSS/Cebraspe 2022 — caderno oficial",
+      "url": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "kind": "questões aplicadas em 27/11/2022"
+    },
+    {
+      "label": "Prova objetiva INSS/Cebraspe 2022 — gabarito definitivo",
+      "url": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF",
+      "kind": "gabarito oficial definitivo"
+    }
+  ],
+  "constitution": [
+    {
+      "id": "cf194",
+      "title": "Art. 194 — conceito e objetivos da Seguridade Social",
+      "reference": "CF/1988, art. 194",
+      "fullText": "Art. 194. A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social.\n\nParágrafo único. Compete ao Poder Público, nos termos da lei, organizar a seguridade social, com base nos seguintes objetivos:\nI - universalidade da cobertura e do atendimento;\nII - uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais;\nIII - seletividade e distributividade na prestação dos benefícios e serviços;\nIV - irredutibilidade do valor dos benefícios;\nV - eqüidade na forma de participação no custeio;\nVI - diversidade da base de financiamento, identificando-se, em rubricas contábeis específicas para cada área, as receitas e as despesas vinculadas a ações de saúde, previdência e assistência social, preservado o caráter contributivo da previdência social;\nVII - caráter democrático e descentralizado da administração, mediante gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do Governo nos órgãos colegiados.",
+      "guide": "Leia primeiro o caput e identifique os três pilares: saúde, previdência e assistência. Depois percorra os sete objetivos. Memorize a gestão quadripartite e seus quatro participantes. Atenção: a universalidade é da Seguridade; a Previdência mantém caráter contributivo.",
+      "focus": [
+        "Três áreas: saúde, previdência e assistência",
+        "Sete objetivos no parágrafo único",
+        "Gestão quadripartite: trabalhadores, empregadores, aposentados e Governo"
+      ],
+      "sourceUrl": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+    },
+    {
+      "id": "cf195",
+      "title": "Art. 195 — financiamento da Seguridade Social",
+      "reference": "CF/1988, art. 195",
+      "fullText": "Art. 195. A seguridade social será financiada por toda a sociedade, de forma direta e indireta, nos termos da lei, mediante recursos provenientes dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios, e das seguintes contribuições sociais:\nI - do empregador, da empresa e da entidade a ela equiparada na forma da lei, incidentes sobre:\na) a folha de salários e demais rendimentos do trabalho pagos ou creditados, a qualquer título, à pessoa física que lhe preste serviço, mesmo sem vínculo empregatício;\nb) a receita ou o faturamento;\nc) o lucro;\nII - do trabalhador e dos demais segurados da previdência social, podendo ser adotadas alíquotas progressivas de acordo com o valor do salário de contribuição, não incidindo contribuição sobre aposentadoria e pensão concedidas pelo Regime Geral de Previdência Social;\nIII - sobre a receita de concursos de prognósticos;\nIV - do importador de bens ou serviços do exterior, ou de quem a lei a ele equiparar;\nV - sobre bens e serviços, nos termos de lei complementar.\n§ 1º As receitas dos Estados, do Distrito Federal e dos Municípios destinadas à seguridade social constarão dos respectivos orçamentos, não integrando o orçamento da União.\n§ 2º A proposta de orçamento da seguridade social será elaborada de forma integrada pelos órgãos responsáveis pela saúde, previdência social e assistência social, tendo em vista as metas e prioridades estabelecidas na lei de diretrizes orçamentárias, assegurada a cada área a gestão de seus recursos.\n§ 3º A pessoa jurídica em débito com o sistema da seguridade social, como estabelecido em lei, não poderá contratar com o Poder Público nem dele receber benefícios ou incentivos fiscais ou creditícios.\n§ 4º A lei poderá instituir outras fontes destinadas a garantir a manutenção ou expansão da seguridade social, obedecido o disposto no art. 154, I.\n§ 5º Nenhum benefício ou serviço da seguridade social poderá ser criado, majorado ou estendido sem a correspondente fonte de custeio total.\n§ 6º As contribuições sociais de que trata este artigo só poderão ser exigidas após decorridos noventa dias da data da publicação da lei que as houver instituído ou modificado, não se lhes aplicando o disposto no art. 150, III, b.\n§ 7º São isentas de contribuição para a seguridade social as entidades beneficentes de assistência social que atendam às exigências estabelecidas em lei.\n§ 8º O produtor, o parceiro, o meeiro e o arrendatário rurais e o pescador artesanal, bem como os respectivos cônjuges, que exerçam suas atividades em regime de economia familiar, sem empregados permanentes, contribuirão para a seguridade social mediante a aplicação de uma alíquota sobre o resultado da comercialização da produção e farão jus aos benefícios nos termos da lei.\n§ 9º As contribuições sociais previstas no inciso I do caput deste artigo poderão ter alíquotas diferenciadas em razão da atividade econômica, da utilização intensiva de mão de obra, do porte da empresa ou da condição estrutural do mercado de trabalho, sendo também autorizada a adoção de bases de cálculo diferenciadas apenas no caso das alíneas b e c do inciso I do caput.\n§ 10. A lei definirá os critérios de transferência de recursos para o sistema único de saúde e ações de assistência social da União para os Estados, o Distrito Federal e os Municípios, e dos Estados para os Municípios, observada a respectiva contrapartida de recursos.\n§ 11. São vedados a moratória e o parcelamento em prazo superior a sessenta meses e, na forma de lei complementar, a remissão e a anistia das contribuições sociais de que tratam a alínea a do inciso I e o inciso II do caput.\n§ 12. A lei definirá os setores de atividade econômica para os quais as contribuições incidentes na forma dos incisos I, b, e IV do caput serão não cumulativas.\n§ 13. Revogado.\n§ 14. O segurado somente terá reconhecida como tempo de contribuição ao Regime Geral de Previdência Social a competência cuja contribuição seja igual ou superior à contribuição mínima mensal exigida para sua categoria, assegurado o agrupamento de contribuições.\n§ 15. A contribuição prevista no inciso V do caput poderá ter sua alíquota fixada em lei ordinária.\n§ 16. Aplica-se à contribuição prevista no inciso V do caput o disposto no art. 156-A, § 1º, I a VI, VIII, X a XIII, § 3º, § 5º, II a VI e IX, e §§ 6º a 11 e 13.\n§ 17. A contribuição prevista no inciso V do caput não integrará sua própria base de cálculo nem a dos tributos previstos nos arts. 153, VIII, 156-A e 195, I, b, e IV, e da contribuição para o Programa de Integração Social de que trata o art. 239.\n§ 18. Lei estabelecerá as hipóteses de devolução da contribuição prevista no inciso V do caput a pessoas físicas, inclusive em relação a limites e beneficiários, com o objetivo de reduzir as desigualdades de renda.\n§ 19. A devolução de que trata o § 18 não será computada na receita corrente líquida da União para os fins do disposto nos arts. 100, § 15, 166, §§ 9º, 12 e 17, e 198, § 2º.",
+      "guide": "Separe as fontes em cinco grupos do caput: empregadores/empresas; trabalhadores e demais segurados; concursos de prognósticos; importadores; bens e serviços. Em seguida, destaque três parágrafos muito cobrados: fonte de custeio total (§ 5º), anterioridade nonagesimal (§ 6º) e contribuição mínima para contar competência (§ 14). A redação atual já contém o inciso V, incluído pela EC 132/2023; não estude apenas a versão de 2022.",
+      "focus": [
+        "Financiamento por toda a sociedade",
+        "§ 5º: fonte de custeio total",
+        "§ 6º: noventena",
+        "§ 14: contribuição mínima mensal",
+        "Inciso V: contribuição sobre bens e serviços, incluída pela EC 132/2023"
+      ],
+      "sourceUrl": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+    },
+    {
+      "id": "cf201",
+      "title": "Art. 201 — organização do RGPS",
+      "reference": "CF/1988, art. 201",
+      "fullText": "Art. 201. A previdência social será organizada sob a forma do Regime Geral de Previdência Social, de caráter contributivo e de filiação obrigatória, observados critérios que preservem o equilíbrio financeiro e atuarial, e atenderá, na forma da lei, a:\nI - cobertura dos eventos de incapacidade temporária ou permanente para o trabalho e idade avançada;\nII - proteção à maternidade, especialmente à gestante;\nIII - proteção ao trabalhador em situação de desemprego involuntário;\nIV - salário-família e auxílio-reclusão para os dependentes dos segurados de baixa renda;\nV - pensão por morte do segurado, homem ou mulher, ao cônjuge ou companheiro e dependentes, observado o disposto no § 2º.\n§ 1º É vedada a adoção de requisitos ou critérios diferenciados para concessão de benefícios, ressalvada, nos termos de lei complementar, a possibilidade de previsão de idade e tempo de contribuição distintos da regra geral para concessão de aposentadoria exclusivamente em favor dos segurados com deficiência, previamente submetidos a avaliação biopsicossocial, e daqueles cujas atividades sejam exercidas com efetiva exposição a agentes químicos, físicos e biológicos prejudiciais à saúde, ou associação desses agentes, vedada a caracterização por categoria profissional ou ocupação.\n§ 2º Nenhum benefício que substitua o salário de contribuição ou o rendimento do trabalho do segurado terá valor mensal inferior ao salário mínimo.\n§ 3º Todos os salários de contribuição considerados para o cálculo de benefício serão devidamente atualizados, na forma da lei.\n§ 4º É assegurado o reajustamento dos benefícios para preservar-lhes, em caráter permanente, o valor real, conforme critérios definidos em lei.\n§ 5º É vedada a filiação ao regime geral de previdência social, na qualidade de segurado facultativo, de pessoa participante de regime próprio de previdência.\n§ 6º A gratificação natalina dos aposentados e pensionistas terá por base o valor dos proventos do mês de dezembro de cada ano.\n§ 7º É assegurada aposentadoria no regime geral de previdência social, nos termos da lei, obedecidas as condições constitucionais de idade e tempo mínimo de contribuição.\n§ 8º O requisito de idade é reduzido em cinco anos para o professor que comprove tempo de efetivo exercício das funções de magistério na educação infantil e no ensino fundamental e médio, fixado em lei complementar.\n§ 8º-A. O requisito de idade será de cinquenta e sete anos para mulher e sessenta anos para homem para agente comunitário de saúde e agente de combate às endemias que comprovem o mínimo de vinte e cinco anos de tempo de contribuição e de efetivo exercício na respectiva atividade profissional. Dispositivo incluído pela EC 140/2026.\n§ 9º Para fins de aposentadoria, será assegurada a contagem recíproca do tempo de contribuição entre o RGPS e os regimes próprios, e destes entre si, observada a compensação financeira, de acordo com os critérios estabelecidos em lei.\n§ 10. Lei complementar poderá disciplinar a cobertura de benefícios não programados, inclusive os decorrentes de acidente do trabalho, a ser atendida concorrentemente pelo RGPS e pelo setor privado.\n§ 11. Os ganhos habituais do empregado, a qualquer título, serão incorporados ao salário para efeito de contribuição previdenciária e consequente repercussão em benefícios, nos casos e na forma da lei.\n§ 12. Lei instituirá sistema especial de inclusão previdenciária, com alíquotas diferenciadas, para atender aos trabalhadores de baixa renda, inclusive os que se encontram em situação de informalidade, e àqueles sem renda própria que se dediquem exclusivamente ao trabalho doméstico no âmbito de sua residência, desde que pertencentes a famílias de baixa renda.\n§ 13. A aposentadoria concedida ao segurado de que trata o § 12 terá valor de um salário mínimo.\n§ 14. É vedada a contagem de tempo de contribuição fictício para efeito de concessão dos benefícios previdenciários e de contagem recíproca.\n§ 15. Lei complementar estabelecerá vedações, regras e condições para a acumulação de benefícios previdenciários.\n§ 16. Os empregados dos consórcios públicos, das empresas públicas, das sociedades de economia mista e de suas subsidiárias serão aposentados compulsoriamente, observado o cumprimento do tempo mínimo de contribuição, ao atingir a idade máxima de que trata o inciso II do § 1º do art. 40, na forma estabelecida em lei.",
+      "guide": "O caput define quatro características centrais do RGPS: contributivo, filiação obrigatória, equilíbrio financeiro e atuarial. Leia os incisos e diferencie proteção previdenciária de seguro-desemprego. No § 5º, marque a vedação ao facultativo para quem participa de RPPS. O § 8º-A foi incluído pela EC 140/2026 e não constava da prova de 2022.",
+      "focus": [
+        "RGPS: contributivo e filiação obrigatória",
+        "Equilíbrio financeiro e atuarial",
+        "§ 5º: vedação ao facultativo para participante de RPPS",
+        "§ 8º-A: atualização EC 140/2026",
+        "Contagem recíproca e compensação financeira"
+      ],
+      "sourceUrl": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilada.htm"
+    }
+  ],
+  "modules": [
+    {
+      "id": "prev-01",
+      "title": "Seguridade Social: conceito, evolução e princípios",
+      "syllabus": "Edital INSS 2022 — item 1",
+      "objective": "Distinguir saúde, previdência e assistência e reconhecer os objetivos constitucionais da Seguridade Social.",
+      "explanation": [
+        {
+          "heading": "O tripé da Seguridade",
+          "body": "A Seguridade Social é o sistema integrado que reúne saúde, previdência e assistência social. Saúde e assistência não dependem de contribuição individual para acesso, observados seus requisitos próprios. A Previdência tem caráter contributivo e protege os segurados e seus dependentes nas hipóteses previstas em lei."
+        },
+        {
+          "heading": "Princípios que merecem memorização",
+          "body": "Universalidade da cobertura e do atendimento; uniformidade e equivalência entre populações urbanas e rurais; seletividade e distributividade; irredutibilidade; equidade no custeio; diversidade da base de financiamento; gestão democrática e descentralizada, de forma quadripartite."
+        },
+        {
+          "heading": "Gestão quadripartite",
+          "body": "A Constituição indica quatro grupos nos órgãos colegiados: trabalhadores, empregadores, aposentados e Governo. Não confunda essa composição com gestão tripartite."
+        },
+        {
+          "heading": "Linha histórica mínima",
+          "body": "A Lei Eloy Chaves (Decreto 4.682/1923) é marco da previdência brasileira, com caixas de aposentadorias e pensões para ferroviários. Na sequência, surgiram institutos organizados por categorias profissionais; a LOPS (Lei 3.807/1960) ampliou a uniformização; o Decreto-Lei 72/1966 unificou os institutos no INPS."
+        }
+      ],
+      "law": [
+        "CF, arts. 193 a 195",
+        "Lei 8.212/1991, arts. 1º a 4º"
+      ],
+      "tasks": [
+        "Ler CF, art. 194, caput e incisos I a VII",
+        "Comparar os três pilares em uma tabela",
+        "Resolver itens oficiais 51 e 52",
+        "Revisar os sete objetivos sem consultar o material"
+      ]
+    },
+    {
+      "id": "prev-02",
+      "title": "Legislação Previdenciária: fontes e aplicação",
+      "syllabus": "Edital INSS 2022 — item 2",
+      "objective": "Reconhecer fontes normativas, hierarquia e regras de aplicação temporal, interpretação e integração.",
+      "explanation": [
+        {
+          "heading": "Fontes",
+          "body": "A Constituição estabelece a estrutura e os limites. Leis e leis complementares disciplinam matérias reservadas ou autorizadas. Decretos regulamentam a execução das leis, sem poder contrariá-las. Instruções normativas organizam procedimentos administrativos dentro dos limites legais."
+        },
+        {
+          "heading": "Hierarquia e legalidade",
+          "body": "Norma administrativa não pode criar obrigação ou restringir direito além da autorização legal. Para resolver questão, identifique primeiro a norma constitucional, depois a lei e o regulamento aplicável."
+        },
+        {
+          "heading": "Aplicação no tempo",
+          "body": "Como regra, a lei nova rege fatos ocorridos durante sua vigência; situações consolidadas devem ser examinadas conforme a disciplina intertemporal aplicável. Em matéria previdenciária, a data do fato gerador e a data em que os requisitos foram preenchidos são decisivas. Não memorize uma regra genérica de retroatividade sem identificar o instituto."
+        },
+        {
+          "heading": "Atualização normativa",
+          "body": "A IN PRES/INSS 128/2022 é norma administrativa relevante para rotinas e reconhecimento de direitos, mas sofreu alterações posteriores. A página oficial do INSS registra modificações até 12/08/2026; consulte sempre a versão consolidada e não uma cópia antiga."
+        }
+      ],
+      "law": [
+        "CF, arts. 5º, XXXVI, 37 e 194 a 201",
+        "Lei 8.212/1991",
+        "Lei 8.213/1991",
+        "Decreto 3.048/1999",
+        "IN PRES/INSS 128/2022, versão alterada"
+      ],
+      "tasks": [
+        "Montar pirâmide normativa",
+        "Diferenciar lei, decreto e instrução normativa",
+        "Ler a página oficial de alterações da IN 128",
+        "Resolver item oficial 54 e justificar a resposta"
+      ]
+    },
+    {
+      "id": "prev-03",
+      "title": "RGPS: segurados, filiação e inscrição",
+      "syllabus": "Edital INSS 2022 — item 3",
+      "objective": "Classificar segurados obrigatórios e facultativos e diferenciar filiação de inscrição.",
+      "explanation": [
+        {
+          "heading": "Cinco categorias obrigatórias",
+          "body": "O RGPS prevê empregado, empregado doméstico, trabalhador avulso, contribuinte individual e segurado especial. O enquadramento decorre dos fatos e da atividade exercida, não do nome dado ao contrato."
+        },
+        {
+          "heading": "Empregado",
+          "body": "Em linhas gerais, presta serviço não eventual, com subordinação e remuneração. A Lei 8.212/1991 também inclui situações específicas, como brasileiro contratado no Brasil para trabalhar como empregado em empresa no exterior cuja maioria do capital votante pertença a empresa brasileira de capital nacional."
+        },
+        {
+          "heading": "Empregado doméstico",
+          "body": "Presta serviço de natureza contínua a pessoa ou família, no âmbito residencial, em atividade sem finalidade lucrativa. A legislação específica do trabalho doméstico complementa o enquadramento."
+        },
+        {
+          "heading": "Trabalhador avulso",
+          "body": "Presta serviço a diversas empresas, sem vínculo empregatício, com intermediação obrigatória do órgão gestor de mão de obra ou do sindicato, conforme a atividade e a legislação."
+        },
+        {
+          "heading": "Contribuinte individual",
+          "body": "Abrange, entre outros, quem trabalha por conta própria, o empresário, o prestador de serviço sem vínculo empregatício nas hipóteses legais e o ministro de confissão religiosa. O ministro religioso não é segurado facultativo apenas por exercer atividade religiosa."
+        },
+        {
+          "heading": "Segurado especial",
+          "body": "Abrange produtor rural, pescador artesanal e integrantes do grupo familiar que trabalham em regime de economia familiar, observados os requisitos legais. A lei admite atividade remunerada por até 120 dias, corridos ou intercalados, no ano civil, sem perda automática da condição, desde que os demais requisitos sejam mantidos."
+        },
+        {
+          "heading": "Facultativo",
+          "body": "É a pessoa que não exerce atividade que a enquadre como segurado obrigatório e decide filiar-se mediante contribuição, respeitados os requisitos legais. A Constituição veda a filiação facultativa de pessoa participante de regime próprio de previdência."
+        },
+        {
+          "heading": "Filiação x inscrição",
+          "body": "Filiação é o vínculo jurídico com a Previdência. Para o segurado obrigatório, decorre automaticamente do exercício de atividade remunerada abrangida pelo RGPS. Inscrição é o cadastro da pessoa no regime. Não confunda início do vínculo com o ato cadastral nem com o recolhimento da primeira contribuição."
+        },
+        {
+          "heading": "RPPS e atividade concomitante",
+          "body": "Servidor efetivo ou militar amparado por RPPS fica excluído do RGPS em relação ao cargo coberto pelo regime próprio. Se exercer simultaneamente atividade abrangida pelo RGPS, será segurado obrigatório do RGPS quanto a essa outra atividade."
+        }
+      ],
+      "law": [
+        "CF, art. 201, caput e § 5º",
+        "Lei 8.212/1991, arts. 12 a 15",
+        "Lei 8.213/1991, arts. 11 a 13",
+        "Decreto 3.048/1999, art. 9º e seguintes",
+        "IN PRES/INSS 128/2022, texto atualizado"
+      ],
+      "tasks": [
+        "Fazer quadro comparativo das cinco categorias obrigatórias",
+        "Diferenciar filiação e inscrição em duas frases",
+        "Revisar o limite de 120 dias do segurado especial",
+        "Resolver itens oficiais 55, 56, 57, 59 e 60"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ce-2022-51",
+      "item": 51,
+      "module": "prev-01",
+      "summary": "A gestão democrática da Seguridade exige participação de trabalhadores, empregadores, aposentados e Governo.",
+      "answer": "C",
+      "explanation": "Correto. O art. 194, parágrafo único, VII, prevê gestão quadripartite com esses quatro grupos nos órgãos colegiados.",
+      "legal": "CF, art. 194, parágrafo único, VII.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-52",
+      "item": 52,
+      "module": "prev-01",
+      "summary": "O item reconhece uniformidade e equivalência, mas nega a equidade na participação no custeio.",
+      "answer": "E",
+      "explanation": "Errado. A equidade na forma de participação no custeio é expressamente um dos objetivos constitucionais da Seguridade Social.",
+      "legal": "CF, art. 194, parágrafo único, V.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-54",
+      "item": 54,
+      "module": "prev-02",
+      "summary": "O item trata da aplicação temporal da lei previdenciária e apresenta uma suposta exceção de retroatividade favorável a infratores.",
+      "answer": "E",
+      "explanation": "Errado no gabarito definitivo. A assertiva formula uma exceção que não corresponde à regra de aplicação temporal previdenciária. Para resolver questões desse tipo, identifique o fato, a data em que os requisitos foram preenchidos e a norma vigente, sem importar automaticamente a retroatividade benéfica do Direito Penal.",
+      "legal": "CF, art. 5º, XXXVI; legislação previdenciária aplicável ao fato.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-55",
+      "item": 55,
+      "module": "prev-03",
+      "summary": "O item classifica como contribuinte individual o brasileiro contratado no Brasil para trabalhar como empregado em empresa no exterior controlada majoritariamente por empresa brasileira.",
+      "answer": "E",
+      "explanation": "Errado. A hipótese legal é de segurado obrigatório na categoria empregado, e não contribuinte individual. O detalhe decisivo é a contratação no Brasil para trabalhar como empregado.",
+      "legal": "Lei 8.212/1991, art. 12, I, f.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-56",
+      "item": 56,
+      "module": "prev-03",
+      "summary": "Produtor rural em área de três módulos fiscais exerce turismo rural por 90 dias no ano; o item pergunta se isso afasta a condição de segurado especial.",
+      "answer": "C",
+      "explanation": "Certo, desde que os demais requisitos da categoria permaneçam atendidos. A lei admite atividade remunerada por até 120 dias, corridos ou intercalados, no ano civil.",
+      "legal": "Lei 8.212/1991, art. 12, § 10, III.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-57",
+      "item": 57,
+      "module": "prev-03",
+      "summary": "O item afirma que ministro de confissão religiosa e membro de instituto de vida consagrada são segurados facultativos.",
+      "answer": "E",
+      "explanation": "Errado. O ministro de confissão religiosa e o membro de instituto de vida consagrada, congregação ou ordem religiosa integram a categoria de contribuinte individual, observada a legislação.",
+      "legal": "Lei 8.212/1991, art. 12, V, c.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-59",
+      "item": 59,
+      "module": "prev-03",
+      "summary": "O item afirma que a filiação do segurado obrigatório só se concretiza com o pagamento da primeira contribuição.",
+      "answer": "E",
+      "explanation": "Errado. Para o segurado obrigatório, a filiação decorre automaticamente do exercício de atividade remunerada abrangida pelo RGPS. O recolhimento e a inscrição são conceitos distintos.",
+      "legal": "Lei 8.212/1991, art. 12; orientação oficial do INSS sobre filiação e inscrição.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-60",
+      "item": 60,
+      "module": "prev-03",
+      "summary": "O item trata do exercente de mandato eletivo federal, estadual ou municipal sem vínculo a RPPS como segurado obrigatório.",
+      "answer": "C",
+      "explanation": "Certo. A lei inclui o exercente de mandato eletivo na categoria de empregado quando não vinculado a regime próprio de previdência social.",
+      "legal": "Lei 8.212/1991, art. 12, I, j.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-113",
+      "item": 113,
+      "module": "prev-01",
+      "summary": "O item reúne acesso universal à saúde, descentralização com direção única e participação privada conforme a Constituição.",
+      "answer": "C",
+      "explanation": "Certo. Esses elementos estão previstos nos arts. 196 a 199 da Constituição, observados os limites constitucionais para participação privada.",
+      "legal": "CF, arts. 196 a 199.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-114",
+      "item": 114,
+      "module": "prev-01",
+      "summary": "O item descreve a assistência social como independente de contribuição, mas afirma que sua organização é centralizada.",
+      "answer": "E",
+      "explanation": "Errado. A assistência social independe de contribuição, porém sua organização observa descentralização político-administrativa e participação da população.",
+      "legal": "CF, art. 204; Lei 8.212/1991, art. 4º.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-115",
+      "item": 115,
+      "module": "prev-01",
+      "summary": "O item aborda a finalidade protetiva da Previdência, a preservação do valor dos benefícios e a participação mediante contribuição.",
+      "answer": "C",
+      "explanation": "Certo conforme o gabarito definitivo. Atenção à distinção: o desemprego involuntário aparece na descrição ampla da proteção social, mas o seguro-desemprego é disciplinado em legislação própria e não é benefício pago pelo RGPS.",
+      "legal": "Lei 8.212/1991, art. 3º; Lei 8.213/1991, art. 9º, § 1º.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    },
+    {
+      "id": "ce-2022-116",
+      "item": 116,
+      "module": "prev-01",
+      "summary": "O item afirma que a Seguridade observa vedação à seletividade e à redução do valor nominal dos benefícios.",
+      "answer": "E",
+      "explanation": "Errado. Seletividade é objetivo expresso da Seguridade Social; a Constituição não estabelece vedação à seletividade. A irredutibilidade do valor dos benefícios é o princípio aplicável.",
+      "legal": "CF, art. 194, parágrafo único, III e IV.",
+      "examUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/760_INSS_001_01.PDF",
+      "keyUrl": "https://cdn.cebraspe.org.br/concursos/INSS_22/arquivos/GAB_DEFINITIVO_760_INSS_001_01.PDF"
+    }
+  ],
+  "reviewCards": [
+    {
+      "id": "r1",
+      "front": "Quais são os três pilares da Seguridade Social?",
+      "back": "Saúde, Previdência Social e Assistência Social. CF, art. 194."
+    },
+    {
+      "id": "r2",
+      "front": "Quais são os quatro grupos da gestão quadripartite?",
+      "back": "Trabalhadores, empregadores, aposentados e Governo. CF, art. 194, parágrafo único, VII."
+    },
+    {
+      "id": "r3",
+      "front": "Qual regra impede criar ou ampliar benefício sem indicar recursos?",
+      "back": "A exigência de fonte de custeio total. CF, art. 195, § 5º."
+    },
+    {
+      "id": "r4",
+      "front": "Qual o prazo de anterioridade aplicável às contribuições sociais do art. 195?",
+      "back": "Noventa dias, conforme CF, art. 195, § 6º."
+    },
+    {
+      "id": "r5",
+      "front": "Quais são as cinco categorias de segurados obrigatórios do RGPS?",
+      "back": "Empregado, empregado doméstico, trabalhador avulso, contribuinte individual e segurado especial."
+    },
+    {
+      "id": "r6",
+      "front": "Quando ocorre a filiação do segurado obrigatório?",
+      "back": "Automaticamente com o exercício de atividade remunerada abrangida pelo RGPS; não depende do pagamento da primeira contribuição."
+    },
+    {
+      "id": "r7",
+      "front": "Ministro de confissão religiosa é facultativo?",
+      "back": "Não. Enquadra-se como contribuinte individual, nos termos da Lei 8.212/1991, art. 12, V, c."
+    },
+    {
+      "id": "r8",
+      "front": "Qual limite anual de atividade remunerada é admitido para o segurado especial na hipótese legal?",
+      "back": "Até 120 dias, corridos ou intercalados, no ano civil, sem prejuízo dos demais requisitos."
+    },
+    {
+      "id": "r9",
+      "front": "Participante de RPPS pode filiar-se ao RGPS como facultativo?",
+      "back": "Não. A vedação está no art. 201, § 5º, da Constituição."
+    }
+  ],
+  "videoPolicy": {
+    "rule": "Um link só pode receber status VALIDADO após o player informar estado de reprodução (PLAYING) e acumular ao menos 10 segundos efetivos de reprodução. Abrir a página, carregar a miniatura, encontrar o ID do vídeo ou exibir o player não comprova reprodução.",
+    "statuses": [
+      "PENDENTE",
+      "FALHA NA INCORPORAÇÃO",
+      "REPRODUÇÃO CONFIRMADA"
+    ],
+    "note": "Nenhum vídeo foi marcado como validado por esta atualização. Os links já existentes precisam passar pelo teste individual no player."
+  }
+}
