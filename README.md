@@ -1,48 +1,30 @@
 # INSS Study
 
-Snapshot de recuperação da versão publicada em https://inss-study.vercel.app/.
+Aplicação Next.js que preserva a interface de produção recuperada da Vercel e aplica melhorias de experiência sem reimplementar nem alterar o banco Supabase.
 
-## Estado desta recuperação
+## Estrutura de recuperação
 
-Este repositório preserva os recursos estáticos recuperados da implantação principal da Vercel: HTML inicial, CSS, runtime do Next.js e bundles compilados da aplicação.
+- `src/pages/index.js`: host da interface recuperada, em iframe da mesma origem.
+- `src/public/original/index.html`: HTML inicial da versão de produção.
+- `src/public/original-next/static/`: bundles JS, CSS e manifestos originais.
+- `src/public/inss-study-enhancements.css`: tema escuro, tipografia, largura e modos de vídeo.
+- `src/public/inss-study-enhancements.js`: alternância de tema e controles do player.
 
-**Importante:** os arquivos JavaScript em `_next/static/chunks/` são artefatos compilados/minificados, não os fontes React originais. A API de recuperação da implantação não disponibilizou integralmente o fonte original nem os source maps. Esta cópia é um snapshot de produção recuperado, ainda não uma árvore-fonte de desenvolvimento.
+Os bundles do Next.js da versão anterior foram preservados como artefatos compilados. Ainda não são os fontes React originais. O wrapper permite manter os fluxos existentes enquanto os componentes originais são recuperados/reconstruídos.
 
-## Origem
+## Melhorias incluídas
 
-- Projeto Vercel: `inss-study`
-- Domínio de produção: https://inss-study.vercel.app/
-- Deployment: `dpl_APq6FTbT4LZ4qYTsfzB8Ln7pdU6g`
-- Build ID: `46dZ5dJKeQqQ4lslGaHLA`
-- Next.js: 15.5.29
-- React: 19.1.1
-- Supabase JS: 2.57.4
+- Tema escuro padrão, com alternância para tema claro e preferência no navegador.
+- Tipografia ampliada e maior área útil em monitores largos.
+- Controles no player: ampliar vídeo, modo teatro e tela cheia.
+- Layout responsivo para telas menores.
 
-## Configuração Supabase
+## Supabase
 
-A aplicação utiliza estas variáveis públicas:
+A autenticação, o catálogo de aulas, o progresso e as tentativas de questões continuam sendo controlados pela aplicação publicada original. Nenhuma migração ou alteração de tabela foi executada.
 
-```env
-NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
-```
+Configure na Vercel:
+- `NEXT_PUBLIC_SUPABASE_URL`
+- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
 
-Configure-as diretamente na Vercel. Nenhuma credencial privada ou arquivo `.env` foi incluído.
-
-## Funcionalidades identificadas na publicação
-
-- Autenticação com Supabase.
-- Painel interno e acompanhamento de progresso.
-- Cronograma e calendário de 12 semanas.
-- Aulas, disciplinas e tópicos do edital.
-- Registro de progresso por aula.
-- Questões de treino, correção, explicação e histórico.
-
-## Próximas etapas
-
-1. Recuperar ou reconstituir os módulos React de desenvolvimento.
-2. Recriar a estrutura do projeto Next.js.
-3. Validar autenticação, progresso, aulas e questões em preview.
-4. Conectar o projeto Vercel a este repositório somente depois de validar a árvore-fonte.
-
-Este snapshot não altera o projeto Vercel nem os dados do Supabase.
+Não inclua arquivo `.env`, service-role key ou credenciais privadas no Git.
