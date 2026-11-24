@@ -182,8 +182,11 @@
       '<a href="' + escapeHtml(studyData.sources[5].url) + '" target="_blank" rel="noopener noreferrer">Abrir caderno oficial ↗</a> · <a href="' + escapeHtml(studyData.sources[6].url) + '" target="_blank" rel="noopener noreferrer">Abrir gabarito definitivo ↗</a></div>';
     studyData.questions.forEach(function (question) {
       const attempt = state.attempts && state.attempts[question.id];
-      html += '<article class="inss-study-card inss-question-card"><div class="inss-question-head"><span class="inss-study-tag">ITEM ' + escapeHtml(question.item) + ' · PROVA OFICIAL</span><span class="inss-study-status">' + (attempt ? "Respondida" : "Não respondida") + '</span></div><p>' + escapeHtml(question.summary) + '</p>';
-      if (attempt) {
+      const status = question.annulled ? "Anulada" : (attempt ? "Respondida" : "Não respondida");
+      html += '<article class="inss-study-card inss-question-card"><div class="inss-question-head"><span class="inss-study-tag">ITEM ' + escapeHtml(question.item) + ' · PROVA OFICIAL</span><span class="inss-study-status ' + (question.annulled ? "annulled" : "") + '">' + status + '</span></div><p>' + escapeHtml(question.summary) + '</p>';
+      if (question.annulled) {
+        html += '<div class="inss-question-result annulled"><b>Item anulado — fora da pontuação</b><p>' + escapeHtml(question.explanation) + '</p></div>';
+      } else if (attempt) {
         html += '<div class="inss-question-result ' + (attempt === question.answer ? "correct" : "wrong") + '"><b>Sua resposta: ' + attempt + ' · Gabarito: ' + question.answer + '</b><p>' + escapeHtml(question.explanation) + '</p></div>';
       } else {
         html += '<div class="inss-answer-actions"><button type="button" data-question-id="' + escapeHtml(question.id) + '" data-answer="C">Certo</button><button type="button" data-question-id="' + escapeHtml(question.id) + '" data-answer="E">Errado</button></div>';
